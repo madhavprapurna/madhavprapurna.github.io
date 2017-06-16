@@ -6,13 +6,28 @@ header{
 #header{
     min-height: 300px;
 }
+.header-btn a {
+    color: #812222;
+}
+
+.header-btn a:hover{
+    width: 50px;
+    font-size: 1.2em;
+    color: brown;
+    height: 100%;
+}
 
 /*MAIN STYLES*/
 
 body{
     background: #7baea5;
-    padding: 0 0 75px 0;
+    padding: 75px 0 0 0;
     color: #812222;
+}
+
+#col1:hover{
+    padding: 10px;
+    background: red;
 }
 
 /*FOOTER STYLES*/
@@ -27,12 +42,6 @@ footer a{
 }
 
 /*BOOTSTRAP STYLES*/
-.navbar-inverse, .navbar{
-    background: #f6b667;
-    border: 1px solid #f6b667;
-    
-}
-
-.nav a {
-    color: #812222; 
+.navbar-fixed-top{
+    background: #812222;
 }
