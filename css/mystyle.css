@@ -1,3 +1,8 @@
+/*COLOR PALETTE*/
+body-bg: #34495e;
+body-text: #fff;
+body-text-hover: #abb2c3; 
+
 /*HEADER STYLES*/
 
 header{
@@ -5,35 +10,50 @@ header{
 }
 
 .header-btn a {
-    color: #812222;
+    color: #01161E;
 }
 
 .header-btn a:hover{
     width: 50px;
-    font-size: 1.2em;
-    color: brown;
+    color: #abb2c3;
     height: 100%;
 }
 
 /*MAIN STYLES*/
 
 body{
-    background: #7baea5;
-    padding: 75px 0 0 0;
-    color: #812222;
+    background: #34495e;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
 }
 
-#col1:hover{
-    padding: 10px;
-    background: red;
+h1, h3 {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
+#about h3:hover {
+    color: #abb2c3;
+}
+
+#Projects img{
+    margin: 15px;
+    padding: 5px;
+}
+
+#Projects h3:hover {
+    color: #abb2c3;
+}
+
+p{
+    color: #abb2c3;
+}
 /*FOOTER STYLES*/
 
 footer{
     padding: 20px;
     min-height: 250px;
-    background: #83d0c9;
+    
 }
 
 footer a{
@@ -46,11 +66,12 @@ footer a{
 }
 
 .navbar-brand{
-    color: #812222 !important;
+    color: #abb2c3 !important;
     font-size: 1.7em;
+
 }
 .navbar-brand:hover{
-    color: floralwhite !important;
+    color: #fff !important;
 }
 
 .navbar {
@@ -58,14 +79,18 @@ footer a{
 }
 
 .navbar-nav li a{
-    color: #812222 !important;
+    color: #abb2c3 !important;
     font-size: 1.15em;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px;
 }
 .navbar-nav li a:hover{
     
-    color: floralwhite !important;
+    color: #fff !important;
+    border-bottom: 2px solid #335C67 !important;
 }
 
 .navbar-nav li a:focus, .navbar-nav li a:active{
-    border-bottom: 2px solid #812222 !important;
+    text-shadow: 2px 2px 10px #335C67 !important;
 }
