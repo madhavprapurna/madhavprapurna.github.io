@@ -4,20 +4,8 @@
 	<title>Madhava Prapurna | Front End Web Developer </title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
-	<style type="text/css">
-		header{
-			background: url("images/new.jpg");
-			background-repeat: no-repeat;
-			background-size: 100%;
-		}
-		#header{
-			min-height: 300px;
-		}
-		body{
-			padding: 0 0 75px 0;
-		}
-	</style>
-</head>
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	</head>
 <body>
 
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
@@ -26,10 +14,10 @@
 		<a href="index.html" class="navbar-brand">Madhava Prapurna </a>
 	</div>
 	<ul class="nav navbar-nav">
-		<li><a href="#">Home</a></li>
+		<li><a href="#header">Home</a></li>
 		<li><a href="#">About</a></li>
 		<li><a href="#">Projects</a></li>
-		<li><a href="#">Contact</a></li>
+		<li><a href="#footer">Contact</a></li>
 	</ul>
 
 	</div>
@@ -37,30 +25,47 @@
 	<header>
 
 		<div id ="header" class="container">
-			<h1 class="text text-center text-danger">M A D H A V A &nbsp;&nbsp; P R A P U R N A </h1>
-			<p class="text-success">Enthuisiastic front end web developer looking to get settled in competetive and challenging environment where I can serve to my best ability and establish an enjoyable career for myself.</p>
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="images/circle.jpg" width="250px" class="img-circle">
+				</div>
+				<div class="col-sm-9">
+					<h1 class="text-center">M A D H A V A &nbsp;&nbsp; P R A P U R N A </h1>
+					<p class="text-center">Enthuisiastic front end web developer looking to get settled in competetive and challenging environment where I can serve to my best ability and establish an enjoyable career for myself.</p>
+				</div>
+				
+			</div>
 		</div>
 	
 	</header>
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-6" style="min-height: 500px; background-color: orange;">
+			<div class="col-sm-6" style="min-height: 500px; background-color: #0D6C43;">
 				
 			</div>
-			<div class="col-sm-6" style="min-height: 500px; background-color: green;">
+			<div class="col-sm-6" style="min-height: 500px; background-color: #498D11;">
 				
 			</div>
 		</div>
 	</div>
+
+
 	<footer>
-		<div>
+		<div id="footer" class="row col-sm-12">
+		<div class="col-sm-6">
+			<ul class="list-unstyled">
+				<li><a href="#">Facebook</a></li>
+				<li><a href="#">Linkedin</a></li>
+				<li><a href="#">Github</a></li>
+			</ul>
+		</div>
+		<div></div>
 			
 		</div>
 		<div class="col-sm-12 text-center">
 		&copy;Madhava Prapurna 2017	
 		</div>
 	</footer>
-
 
 </body>
 </html>
